@@ -138,6 +138,18 @@ a {
     text-decoration: none;
 }
 
+.flex-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-center textarea {
+    height: 150px;
+    width: 60%;
+}
+
 a:visited { color: var(--light-blue); }
-a:hover { color: var(--light-blue); }
+a:hover { color: lightblue; }
 a:active { color: var(--light-blue); }

@@ -1,6 +1,4 @@
 import React from 'react'
-import MemHeader from './MemHeader'
-
 
 class MemeGenetator extends React.Component {
     constructor() {
@@ -44,23 +42,6 @@ class MemeGenetator extends React.Component {
     render () {
 
         const stylesMem = {
-            header: {
-                'height': '100px',
-                'display': 'flex',
-                'align-items': 'center',
-                'background': '#6441a5',
-                'background': '-webkit - linear - gradient(to right, #2a0845, #6441a5)',
-                'background': 'linear - gradient(to right, #2a0845, #6441a5)'
-            },
-            headerImg: {
-                'height':'80%',
-                'margin-left':'10%'
-            },
-            headerP: {
-                'color': 'whitesmoke',
-                'font-size': '50px',
-                'margin-left': '60px'
-            },
             meme: {
                 'position': 'relative',
                 'width': '90%',
@@ -124,7 +105,6 @@ class MemeGenetator extends React.Component {
         }
         return (
             <>
-            <MemHeader style={stylesMem}/>
             <div>
                 <form style={stylesMem.memeForm} onSubmit={this.handleSubmit}>
                     <input type="text" value={this.state.topText} onChange={this.handleChange} placeholder="Top Text" name="topText" style={stylesMem.memeFormInput}/>

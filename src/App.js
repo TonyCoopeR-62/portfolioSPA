@@ -6,6 +6,7 @@ import Cart from "./pages/Cart"
 import Photos from "./pages/Photos"
 import WeatherBlock from "./components/weather/WeatherBlock"
 import MemeGenetator from './components/memeGenerator/MemeGenerator'
+import GameApp from './components/game/GameApp'
 
 function App() {    
     return (
@@ -26,6 +27,10 @@ function App() {
 
                 <Route path="/memegenerator">
                     <MemeGenetator />
+                </Route>
+
+                <Route path="/gameapp">
+                    <GameApp />
                 </Route>
             </Switch>
         </div>

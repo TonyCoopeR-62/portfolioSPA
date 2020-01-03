@@ -29,6 +29,10 @@ function Header() {
             <Link to="/memegenerator">
                 <h2>Meme Generator</h2>
             </Link>
+
+            <Link to="/gameapp">
+                <h2>Speedtyping game</h2>
+            </Link>
         </header>
     )
 }
