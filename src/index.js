@@ -1,7 +1,7 @@
 import React from "react"
 import ReactDOM from "react-dom"
 import {BrowserRouter as Router} from "react-router-dom"
-import {ContextProvider} from './components/useContext'
+import {ContextProvider} from '../src/components/picsome/useContext'
 import App from "./App"
 
 ReactDOM.render(

@@ -1,5 +1,5 @@
 import React, { useContext } from "react"
-import {Context} from '../components/useContext'
+import {Context} from './useContext'
 import useHover from '../hooks/useHover'
 
 function CartItem({item}) {

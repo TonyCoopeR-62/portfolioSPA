@@ -1,9 +1,11 @@
 import React from "react"
 import {Switch, Route} from "react-router-dom"
 
-import Header from "./components/Header"
+import Header from "./components/picsome/Header"
 import Cart from "./pages/Cart"
 import Photos from "./pages/Photos"
+import WeatherBlock from "./components/weather/WeatherBlock"
+import MemeGenetator from './components/memeGenerator/MemeGenerator'
 
 function App() {    
     return (
@@ -16,6 +18,14 @@ function App() {
                 
                 <Route path="/cart">
                     <Cart />
+                </Route>
+
+                <Route path="/weatherblock">
+                    <WeatherBlock />
+                </Route>
+
+                <Route path="/memegenerator">
+                    <MemeGenetator />
                 </Route>
             </Switch>
         </div>

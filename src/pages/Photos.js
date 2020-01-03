@@ -1,7 +1,7 @@
 import React, {useContext} from "react"
 
-import Image from "../components/Image"
-import {Context} from "../components/useContext"
+import Image from "../components/picsome/Image"
+import {Context} from "../components/picsome/useContext"
 import {getClass} from "../utils/index"
 
 function Photos() {
