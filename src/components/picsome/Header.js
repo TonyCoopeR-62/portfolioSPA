@@ -8,9 +8,10 @@ function Header() {
     const cartClass = cartItems.length === 0 ? "ri-shopping-cart-line ri-fw ri-2x" : "ri-shopping-cart-fill ri-fw ri-2x"
     const divStyle = {
         'display':'flex',
-        'align-items':'center',
-        'width':'30%',
-        'justify-content':'space-around'
+        'alignItems':'center',
+        'width': '20%',
+        'justifyContent':'space-around',
+        'background': 'rgba(38, 0, 255, 0.384)'
     }
     
     return (

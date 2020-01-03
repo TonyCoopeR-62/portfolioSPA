@@ -98,46 +98,46 @@ class WeatherBlock extends React.Component {
     const main = {    
         
         'height':'350px',
-        'font-family': 'Arial, sans-serif',
+        'fontFamily': 'Arial, sans-serif',
         'color': '#2c2c2cd3',
         'display': 'flex',
-        'flex-direction': 'column',
-        'justify-content':'center',
-        'align-items':'center',
+        'flexDirection': 'column',
+        'justifyContent':'center',
+        'alignItems':'center',
         'margin': '0'
     }
 
     const input = {
         'display': 'flex',
-        'justify-content': 'center',
-        'align-items': 'center',
+        'justifyContent': 'center',
+        'alignItems': 'center',
         'margin': '15px'
     }
 
     const text = {
         'border': '1px solid gray',
-        'border-radius': '8px',
+        'borderRadius': '8px',
         'padding': '5px',
         'outline': 'none'
     }
 
     const button = {
-        'border-radius': '10px',
-        'margin-left': '20px'
+        'borderRadius': '10px',
+        'marginLeft': '20px'
     }
 
     const output = {
         'display': 'flex',
-        'flex-direction': 'column',
-        'border-radius': '8px',
+        'flexDirection': 'column',
+        'borderRadius': '8px',
         'width': '30%',
         'heigth': '100%',
-        'box-shadow': '0 20px 40px 0 silver',
-        'align-items': 'center',
+        'boxShadow': '0 20px 40px 0 silver',
+        'alignItems': 'center',
         'padding': '20px',
-        'justify-items': 'center',
+        'justifyItems': 'center',
         'background': 'linear-gradient(15deg, #ff626267, #6b2cff5b)',
-        'font-size': '30px'
+        'fontSize': '30px'
     }
 
         return (
