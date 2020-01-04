@@ -43,55 +43,6 @@ class WeatherBlock extends React.Component {
         }
     }
 
-      
-    //   .input {
-    //     display: flex;
-    //     justify-content: center;
-    //     align-items: center;
-    //     margin: 15px;
-    //   }
-      
-    //   .text {
-    //     border: 1px solid gray;
-    //     border-radius: 8px;
-    //     padding: 5px;
-    //     outline: none;
-    //   }
-      
-    //   .button {
-    //     border-radius: 10px;
-    //     margin-left: 20px;
-    //   }
-      
-    //   .output {
-    //     display: grid;
-    //     grid-template-areas: 
-    //     "icon temper"
-    //     "city humidity";
-    //     border-radius: 8px;
-    //     box-shadow: 0 20px 40px 0 silver;
-    //     align-items: center;
-    //     padding: 20px;
-    //     justify-items: center;
-    //     background: linear-gradient(15deg, #ff626267, #6b2cff5b);
-    //     font-size: 30px;
-    //   }
-      
-    //   .city-name {
-    //     grid-area: city;
-    //   }
-      
-    //   .humidity {
-    //     grid-area: humidity;
-    //   }
-      
-    //   .temper {
-    //     grid-area: temper;
-    //   }
-      
-    //   .img-div {
-    //     grid-area: icon;
-    //   }
 
     render() {
         
